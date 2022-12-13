@@ -8,7 +8,7 @@ const CharacterItem = ({ item }) => {
           <div className="card-back">
             <a
               href={`https://en.wikipedia.org/wiki/${item.name}`}
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <h1>{item.name}</h1>
             </a>
