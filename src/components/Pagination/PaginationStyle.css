@@ -1,0 +1,32 @@
+.pagination {
+    padding-top: 50px;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  ul li a {
+    display: block;
+    padding: 8px 10px;
+    margin: 3px 7px;
+    color: white;
+    /* background-color: rgb(11, 82, 53); */
+    text-decoration: none;
+    font-size: smaller;
+    border: 2px solid #238a61;
+    border-radius: 2px;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(11, 82, 53);
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
